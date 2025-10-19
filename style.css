@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+  text-align: center;
+  padding: 2rem;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.section {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  width: 250px;
+}
+
+h2 {
+  color: #007bff;
+}
+
+li {
+  list-style: none;
+  margin: 5px 0;
+}
+body.dark-mode {
+  background: #121212;
+  color: #fff;
+}
+
+body.dark-mode .section {
+  background: #1e1e1e;
+  box-shadow: 0 4px 8px rgba(255,255,255,0.1);
+}
